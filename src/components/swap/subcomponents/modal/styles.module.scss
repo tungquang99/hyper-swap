@@ -1,0 +1,65 @@
+.modalContainer {
+  background-color: #212429;
+  box-shadow: #0000000d 0px 4px 8px 0px;
+  width: 450px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  position: absolute;
+  top: 25%;
+  left: calc(50% - (450px / 2));
+  margin: auto;
+  height: 50%;
+  z-index: 99;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  h4 {
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  input {
+    display: flex;
+    padding: 16px;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    background: none;
+    outline: none;
+    border-radius: 20px;
+    color: #ffffff;
+    border: 1px solid #40444f;
+    appearance: none;
+    font-size: 18px;
+    transition: border 100ms ease 0s;
+    box-sizing: border-box;
+    margin: 1rem 0;
+    &:focus {
+      border: 1px solid #2172e5;
+      outline: none;
+    }
+  }
+  hr {
+    border-top-color: transparent;
+    border-bottom-color: #2c2f36;
+    margin: 0.5rem -25px;
+  }
+  .btnManageToken {
+    font-weight: 500;
+    color: #c3c5cb;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

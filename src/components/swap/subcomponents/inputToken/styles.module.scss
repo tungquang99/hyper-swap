@@ -1,0 +1,91 @@
+.inputToken {
+  border-radius: 20px;
+  border: 1px solid #2c2f36;
+  margin-bottom: 2rem;
+  .headerInfo {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1rem;
+    padding: 0.75rem 1rem 0px;
+    opacity: .75;
+  }
+  .detailInfo {
+    display: flex;
+    align-items: center;
+    input {
+      font-weight: 500;
+      padding: 1rem;
+      color: white;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      font-size: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      appearance: textfield;
+      caret-color: white;
+      flex: 1;
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+    .btnMaxBalance {
+      height: 28px;
+      background-color: rgba(21, 61, 111, 0.44);
+      border: 1px solid rgba(21, 61, 111, 0.44);
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      margin-right: 0.5rem;
+      color: rgb(109, 168, 255);
+      &:hover {
+        border: 1px solid #2172e5;
+      }
+    }
+    .btnOpenCurrency {
+      -webkit-box-align: center;
+      align-items: center;
+      height: 2.2rem;
+      font-size: 20px;
+      font-weight: 500;
+      background-color: #2172e5;
+      color: rgb(255, 255, 255);
+      border-radius: 12px;
+      box-shadow: rgb(0 0 0 / 8%) 0px 6px 10px;
+      outline: none;
+      cursor: pointer;
+      user-select: none;
+      border: none;
+      padding: 0px 0.5rem;
+      margin-right: 1rem;
+      &:hover {
+        background-color: #1966d4;
+      }
+    }
+    .btnCurrency {
+      background: transparent;
+      border: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      margin-right: 1rem;
+      padding: 8px;
+      border-radius: 12px;
+      cursor: pointer;
+      &:hover {
+        background-color: #2c2f36;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}

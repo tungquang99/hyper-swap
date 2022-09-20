@@ -1,0 +1,25 @@
+.btnConnectWallet {
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid transparent;
+  text-decoration: none;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  background-color: #153d6f70;
+  color: rgb(109, 168, 255);
+  font-size: 16px;
+  font-weight: 500;
+  &:hover {
+    background-color: #13366270;
+  }
+}

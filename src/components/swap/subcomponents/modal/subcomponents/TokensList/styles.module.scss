@@ -1,0 +1,22 @@
+.tokensList {
+  flex: 1;
+  overflow: auto;
+  padding: 0;
+  margin: 0 -25px;
+  li {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    &:hover {
+      background-color: #2c2f36;
+    }
+    img {
+      width: 24px;
+      height: 24px;
+      box-shadow: #00000013 0px 6px 10px;
+      border-radius: 24px;
+    }
+  }
+}

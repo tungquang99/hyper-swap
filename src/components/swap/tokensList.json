@@ -1,0 +1,93 @@
+{
+  "name": "Top 15 Tokens",
+  "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
+  "keywords": ["avalanche", "defi", "ethereum", "bridge"],
+  "version": {
+    "major": 5,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 43114,
+      "address": "0x60781C2586D68229fde47564546784ab3fACA982",
+      "decimals": 18,
+      "name": "Pangolin",
+      "symbol": "PNG",
+      "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0x60781C2586D68229fde47564546784ab3fACA982/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "decimals": 18,
+      "name": "Wrapped AVAX",
+      "symbol": "WAVAX",
+      "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+      "decimals": 18,
+      "name": "Wrapped ETH",
+      "symbol": "WETH",
+      "logoURI": "https://raw.githubusercontent.com/ava-labs/avalanche-bridge-resources/main/tokens/WETH/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5",
+      "decimals": 18,
+      "name": "BENQI",
+      "symbol": "QI",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c",
+      "decimals": 18,
+      "name": "Penguin Finance",
+      "symbol": "PEFI",
+      "logoURI": "https://raw.githubusercontent.com/Penguin-Finance/png-files/main/PEFILOGOPNG.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4",
+      "decimals": 18,
+      "name": "Avalaunch",
+      "symbol": "XAVA",
+      "logoURI": "https://raw.githubusercontent.com/avalaunch-app/xava-protocol/master/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+      "decimals": 6,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/ava-labs/avalanche-bridge-resources/main/tokens/USDT/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xC38f41A296A4493Ff429F1238e030924A1542e50",
+      "decimals": 18,
+      "name": "Snowball",
+      "symbol": "SNOB",
+      "logoURI": "https://raw.githubusercontent.com/Snowball-Finance/Assets/main/Uphill%20snowball.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7",
+      "decimals": 18,
+      "name": "Yield Yak",
+      "symbol": "YAK",
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x81440C939f2C1E34fc7048E518a637205A632a74",
+      "decimals": 18,
+      "name": "Cycle Protocol",
+      "symbol": "CYCLE",
+      "logoURI": "https://raw.githubusercontent.com/CycleProtocol/assets/master/cycle-logo-round-small.png"
+    }
+  ],
+  "timestamp": "2021-08-27T12:00:00+00:00"
+}
